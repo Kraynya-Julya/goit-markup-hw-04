@@ -174,14 +174,15 @@ cursor: pointer;
     
 }
 
-.buton-text:hover, .text-button, 
-.buton-text:focus, .text-button{
+.button-item-list:hover, .text-button, 
+.button-item-list:focus, .text-button {
     fill: var(--primary--bg-color);
 }
 
 .buton-text:hover,
  .buton-text:focus {
    background-color: var(--accent-color);
+   
 }
 
 
@@ -235,6 +236,21 @@ letter-spacing: 0.03em;
 color: var(--primary-text-color);
 }
 
+.text-button{
+min-width: 73px;
+border: 0px;
+border: transparent;
+border-radius: 4px;
+padding: 6px 22px;
+background-color: #f5f4fa;
+font-weight: 500;
+font-size: 16px;
+line-height: calc(26 / 16);
+text-align: center;
+letter-spacing: 0.03em;
+color: var(--secondary-title-color);
+cursor: pointer;
+}
 
 /* -------------ПОРТФОЛИО------------------ */
 .click {
